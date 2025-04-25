@@ -1,0 +1,353 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+/*header section*/
+header{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 3px;
+    min-height:100px;
+    border-bottom: rgba(13, 232, 75, 0.815) 10px solid;
+    border-top: hwb(138 1% 85% / 0.815) 5px solid;
+    min-width: 100%;
+    cursor: pointer;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5PX;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+header #branding{
+    float: left;
+}
+header #branding h3{
+margin: 2px;
+padding: 2px;
+font-size: 20px;
+text-transform: uppercase;
+}
+header nav{
+    float: left;
+    margin-left:320px;
+   
+
+}
+
+header .highlight, header .current a{
+    color: #e84914;
+    font: bold;
+}
+header a:hover{
+    color: hwb(150 2% 57% / 0.801);
+    font-weight: bold;
+}
+header img{
+    width: 100px;
+    height: 90px;
+    float: left;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.about-nefor{
+    width: 50%;
+    float: right; 
+}
+/*end of Header*/
+#container-nefor{
+    padding: 2px;
+    
+    margin: 5px;  
+    background-color: #17df5a;
+}
+
+
+
+.leadership span{
+    color: rgba(214, 30, 30, 0.863);
+    font-size: 40px;
+}
+.Nefor8{
+    background-color: #e84914;
+}
+
+/*Resposibilites and duties*/
+
+/*link buttons*/
+h1{
+    color: #0be75f;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+#MORE-ABOUT-Chairmen {
+    background-color: rgb(181, 5, 5);
+}
+
+section h2{
+    color: rgba(17, 107, 29, 0.808);
+    font-size: 2.1em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 0.2em;
+}
+.Leaders{
+    background-color: #ff0000;
+}
+.Pre1{
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    float: left;
+    shape-outside: circle(150px);
+    shape-margin: 10px;
+    margin-right: 10px;
+    filter: drop-shadow(7px 7px 7px #666666);
+}
+.Pre{
+    height:150px;
+    width: 150px;
+    float: right;
+    border-radius: 100%;
+    shape-margin: 10px;
+    margin-right: 10px;
+    background: radial-gradient(hsl(256, 89%, 41%), #b97105 75%);
+}
+
+.jpn{
+    text-align: justify;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+    margin: 2px;
+}
+.Chairman1{
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    float: left;
+    shape-outside: circle(150px);
+    shape-margin: 10px;
+    margin-right: 10px;
+    filter: drop-shadow(7px 7px 7px #666666);
+}
+.Chairman{
+    height:150px;
+    width: 150px;
+    float: right;
+    border-radius: 100%;
+    shape-margin: 10px;
+    margin-right: 10px;
+    background: radial-gradient(hsl(256, 89%, 41%), #b97105 75%);
+}
+.SG1{
+    height:150px;
+    width:150px;
+    border-radius:100%;
+    shape-margin: 10px;
+    margin-right: 10px;
+    float:left;
+    background: radial-gradient(hwb(120 5% 22%), hsl(246, 95%, 37%) 75%);
+}
+.SG{
+    height:150px;
+    width:150px;
+    border-radius:100%;
+    shape-margin: 10px;
+    margin-right: 10px;
+    float: right;
+    background: radial-gradient(hwb(120 5% 22%), hsl(246, 95%, 37%) 75%);
+}
+.p{
+    text-align: justify;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+    margin: 2px;
+    color: #17df5a;
+}
+.Advisor1{
+    height:154px;
+    width:154px;
+    border-radius:100%;
+    shape-margin: 10px;
+    margin-right: 5px;
+    float:left;
+    background: radial-gradient(hwb(120 5% 22%), hsl(246, 95%, 37%) 75%);
+}
+.Advisor{
+    height:100px;
+    width:100px;
+    border-radius:100%;
+    shape-margin: 10px;
+    margin-right: 5px;
+    float: right;
+    background: radial-gradient(hwb(120 5% 22%), hsl(246, 95%, 37%) 75%);
+}
+/* This is a footer*/
+
+footer{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height:100%;
+    border-bottom: rgba(16, 211, 114, 0.815) 10px solid;
+    border-top: hwb(138 1% 85% / 0.815) 5px solid;
+    min-width: 100%;
+}
+
+footer p{
+    text-align: center;
+    font: 1em sans-serif;
+    margin: 10px;
+    text-transform: uppercase;
+}
+footer h3{
+    text-align: center;
+    font: 1em sans-serif;
+    text-transform: uppercase ;
+}
+footer ul{
+    background-color: blue;
+    align-items: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    align-items: center;
+    padding: 0;
+}
+footer li{
+    float: left;
+    display: inline;
+    padding: 10px 10px 10px 10px;
+}
+.nefor-logo1{
+    width: 15%;
+    float: left;
+   
+}
+.nefor-logo2{
+    width: 15%;
+    float: right;
+  
+}
+.nefor-logo1 img{
+    width: 100px;
+    height: 90px;
+}
+.nefor-logo2 img{
+    width: 100px;
+    float: right;
+    height: 100%;
+    padding-top: 0;
+}
+/*footer social media*/
+.button{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    max-width: 0 3px;
+    overflow: hidden;
+    background:hsl(139, 91%, 9%);
+    border-radius: 35px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0 0.1);
+    transition: all 0.3s ease-out;
+    margin-left: 85px;
+    
+}
+.wrapper .button:hover{
+    width: 200px;
+}
+.wrapper{
+    margin-left:315px;
+    width: 65%;
+    padding:8px;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+    transition: all 0.3s ease-out;   
+}
+.wrapper .button:nth-child(1)
+:hover.icon{
+    background-color: hwb(263 2% 46%);
+}
+.wrapper .button:nth-child(2)
+:hover.icon{
+    background-color: hsl(135, 92%, 28%);
+}
+.wrapper .button:nth-child(3)
+:hover.icon{
+    background-color: hwb(0 2% 46%);
+}
+.wrapper .button:nth-child(4)
+:hover.icon{
+    background-color: rgb(21, 4, 49);
+}
+
+.wrapper .button .icon a{
+    font-size: 30px;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1)
+span{
+    color: blue;
+    font-size: 15px;
+}
+
+.wrapper .button:nth-child(2)
+span{
+    color: rgb(10, 179, 75);
+    font-size: 15px;
+}
+
+.wrapper .button:nth-child(3)
+span{
+    color: #ff0000;
+    font-size: 15px;
+}
+
+.wrapper .button:nth-child(4)
+span{
+    color:white ;
+    font-size: 15px;
+}
+.scroll-btn{
+	position: fixed;
+	right:5rem;
+	bottom: 5rem;
+	width: 2.2rem;
+	height: 2.2rem;
+	background-color: #05a437;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color:#fff;
+	box-shadow:0.0.1rem 0.6rem rgb(0, 0, 0,0.3);
+	border-radius: 0.3rem;
+}
+
